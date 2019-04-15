@@ -32,7 +32,7 @@ logo-position : top-left
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "Elasticsearch Crash Course - Open Data"
+footnote : "Apache NiFi Crash Course - Open Data"
 
 #
 # Highlight (Code) Setting
