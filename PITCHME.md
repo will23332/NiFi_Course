@@ -29,18 +29,18 @@ Un sistema di elaborazione e distribuzione dati, facile da usare e particolarmen
 
 ---
 
-## Com'è fatto?
+## Core Concepts
 
-Elasticsearch gira in cluster. 
-Un cluster può essere formato da uno o più server.
-Ogni server nel cluster è un nodo. 
-ES stocca i documenti in indici. 
-Un indice può essere "scomposto" in shard.
-
-+++
-
-ES si basa su [Apache Lucene](http://lucene.apache.org/) per l'indicizzazione dei documenti.
-Ogni shard è un indice Lucene.
+| Termine NiFi | Description |
+| --- | --- |
+| `FlowFile` | A FlowFile represents each object moving through the system and for each one, NiFi keeps track of a map of key/value pair attribute strings and its associated content of zero or more bytes. |
+| `Processor` | 	
+Processors actually perform the work. In [eip] terms a processor is doing some combination of data routing, transformation, or mediation between systems. Processors have access to attributes of a given FlowFile and its content stream. Processors can operate on zero or more FlowFiles in a given unit of work and either commit that work or rollback. |
+| `Connection` | 	
+Connections provide the actual linkage between processors. These act as queues and allow various processes to interact at differing rates. These queues can be prioritized dynamically and can have upper bounds on load, which enable back pressure. |
+| `Controller` | The Flow Controller maintains the knowledge of how processes connect and manages the threads and allocations thereof which all processes use. The Flow Controller acts as the broker facilitating the exchange of FlowFiles between processors. |
+| `Process Group` | 	
+A Process Group is a specific set of processes and their connections, which can receive data via input ports and send data out via output ports. In this manner, process groups allow creation of entirely new components simply by composition of other components. |
 
 ---
 
