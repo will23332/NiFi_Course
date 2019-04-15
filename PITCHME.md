@@ -8,22 +8,20 @@ A cura di Guglielmo Piacentini
 
 ---
 
-## Che cos'è Elasticsearch?
+## Che cos'è NiFi?
 
-Un motore di ricerca e analisi full-text, open-source.
+Un sistema di elaborazione e distribuzione dati, facile da usare e particolarmente versatile e potente.
 
 ---
 
-## Come lo uso?
+## Caratteristiche
 
 @ul
-- Hai un negozio online e vuoi permettere ai tuoi clienti di ricercare nel catalogo, utilizzando dei suggerimenti e il completamento automatico. Il catalogo e i tuoi prodotti verranno salvati in Elastic.
-- Vuoi analizzare file di log e statistiche per estrarne conoscenza. Una volta portati i dati su Elastic puoi aggregare e ricercare per estrarre informazioni di interesse.
-@ulend
-+++
-@ul
-- Hai una lista di indirizzi scritti nei modi più disparati, utilizzi Elastic come un dizionario di controllo per costruire una lista di indirizzi normalizzati.
-- Hai un prodotto commerciale che si basa su analisi full-text/semantiche (i.e. Pupilla). Elastic è la spina dorsale su cui vengono sia salvati i documenti che analizzati.
+- Interfaccia Web-based
+- Altamente configurabile (il flusso può essere modificato a runtime)
+- Data Provenance 
+- Estensibile (processori custom)
+- Sicurezza (SSL, SSH, HTTPS)
 @ulend
 
 ---
