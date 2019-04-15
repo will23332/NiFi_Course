@@ -17,11 +17,13 @@ Un sistema di elaborazione e distribuzione dati, facile da usare e particolarmen
 ## Caratteristiche
 
 @ul
+
 - Interfaccia Web-based
 - Altamente configurabile (il flusso può essere modificato a runtime)
 - Data Provenance 
 - Estensibile (processori custom)
 - Sicurezza (SSL, SSH, HTTPS)
+- Rest API
 
 @ulend
 
