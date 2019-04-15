@@ -1,10 +1,10 @@
-# Elasticsearch Crash Course
+# Apache NiFi Crash Course
 
-![LOGO](https://cdn.freebiesupply.com/logos/large/2x/elasticsearch-logo-png-transparent.png)
+![LOGO](https://solace.com/wp-content/uploads/2017/05/nifi.jpg)
 
 +++
 
-A cura di Guglielmo Piacentini e Alfredo Serafini
+A cura di Guglielmo Piacentini
 
 ---
 
