@@ -38,12 +38,14 @@ Un sistema di elaborazione e distribuzione dati, facile da usare e particolarmen
 
 +++
 
+| NiFi Term | Descrizione |
 | --- | --- |
 | `Connection` | Connections provide the actual linkage between processors. These act as queues and allow various processes to interact at differing rates. These queues can be prioritized dynamically and can have upper bounds on load, which enable back pressure. |
 | `Controller` | The Flow Controller maintains the knowledge of how processes connect and manages the threads and allocations thereof which all processes use. The Flow Controller acts as the broker facilitating the exchange of FlowFiles between processors. |
 
 +++
 
+| NiFi Term | Descrizione |
 | --- | --- |
 | `Process Group` | A Process Group is a specific set of processes and their connections, which can receive data via input ports and send data out via output ports. In this manner, process groups allow creation of entirely new components simply by composition of other components. |
 
