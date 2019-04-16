@@ -10,7 +10,11 @@ A cura di Guglielmo Piacentini
 
 ## Che cos'è NiFi?
 
-Un sistema di elaborazione e distribuzione dati, facile da usare e particolarmente versatile e potente.
+Un sistema di elaborazione e distribuzione dati, facile da usare e particolarmente versatile e potente. 
+
++++
+
+Fa parte della piattaforma [Hortonforks HDF](https://it.hortonworks.com/products/data-platforms/hdf/)(Hortonworks DataFlow) per l'analisi di dati in tempo reale, composta da NiFi, MiNiFi, Kafka/Storm, Superset...  
 
 +++
 
@@ -55,13 +59,13 @@ Apache NiFi è un software della Apache Software Foundation basato sul software 
 
 | NiFi Term | Descrizione |
 | --- | --- |
-| `FlowFile` | A FlowFile represents each object moving through the system and for each one, NiFi keeps track of a map of key/value pair attribute strings and its associated content of zero or more bytes. |
+| `FlowFile` | Un FlowFile rappresenta ogni oggetto che si muove nel sistema. Per ognuno NiFi tiene traccia di una mappa chiave/valore per le stringhe degli attributi e il contenuto di zero o più bytes.|
 
 +++
 
 | NiFi Term | Descrizione |
 | --- | --- |
-| `Processor` | Processors actually perform the work. In [eip] terms a processor is doing some combination of data routing, transformation, or mediation between systems. Processors have access to attributes of a given FlowFile and its content stream. Processors can operate on zero or more FlowFiles in a given unit of work and either commit that work or rollback. |
+| `Processor` | Processors actually perform the work. In [eip] terms a processor is doing some combination of data routing, transformation, or mediation between systems. Processors have access to attributes of a given FlowFile and its content stream. Processors can operate on zero or more FlowFiles in a given unit of work and either commit that work or rollback. I processori sono il cuore de|
 
 +++
 
@@ -84,7 +88,7 @@ Apache NiFi è un software della Apache Software Foundation basato sul software 
 ---
 
 ## Hands On
-[DEMO](http://10.121.172.33:8080/nifi/)
+[DEMO](http://10.121.172.33:32770/nifi/)
 
 ---
 
