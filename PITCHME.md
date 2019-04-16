@@ -88,7 +88,7 @@ Apache NiFi è un software della Apache Software Foundation basato sul software 
 ---
 
 ## Hands On
-[NiFi Cluster](http://10.121.172.33:32770/nifi/)
+[NiFi Cluster](http://10.121.172.33:32770/nifi/?processGroupId=25538a74-016a-1000-ffff-ffffe8292de3&componentIds=)
 
 +++
 
@@ -142,7 +142,7 @@ NiFi espone delle [API](https://nifi.apache.org/docs/nifi-docs/rest-api/index.ht
 
 ## Hands On pt. II
 
-[NiFi Cluster](http://10.121.172.33:32770/nifi/)
+[NiFi Cluster](http://10.121.172.33:32770/nifi/?processGroupId=25538a74-016a-1000-ffff-ffffe8292de3&componentIds=)
 
 +++
 
