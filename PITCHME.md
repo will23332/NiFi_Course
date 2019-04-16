@@ -91,13 +91,13 @@ Apache NiFi è un software della Apache Software Foundation basato sul software 
 
 | NiFi Term | Descrizione |
 | --- | --- |
-| `Controller` | The Flow Controller maintains the knowledge of how processes connect and manages the threads and allocations thereof which all processes use. The Flow Controller acts as the broker facilitating the exchange of FlowFiles between processors. I Controller hanno al loro interno le informazioni su come i processi si connettono e sui thread che utilizzano.|
+| `Controller` | I Controller hanno al loro interno le informazioni su come i processi si connettono e sui thread che utilizzano.|
 
 +++
 
 | NiFi Term | Descrizione |
 | --- | --- |
-| `Process Group` | A Process Group is a specific set of processes and their connections, which can receive data via input ports and send data out via output ports. In this manner, process groups allow creation of entirely new components simply by composition of other components. |
+| `Process Group` | Un Process Group è un insieme di processi e connessioni, che può ricevere dati dalle porte di input o inviarne da quelle di output.|
 
 ---
 
@@ -132,12 +132,15 @@ Apache NiFi è un software della Apache Software Foundation basato sul software 
 NiFi stocca localmente tre repository su disco:
 
 Flowfile Repository 
+
 Contiene lo stato e gli attributi di ogni flowfile che attraversa il flusso NiFi.
 
 Content Repository
+
 Contiene praticamente tutto il contenuto di tutti i flowfiles. Richiede spazio disco in relazione ai dati trattati, quindi ci si deve organizzare di conseguenza.
 
 Provenance Repository
+
 Contiene tutti gli eventi relativi ai flowfiles. Sia volatile (dati persi dopo il restart) che persistente.
 
 ---
