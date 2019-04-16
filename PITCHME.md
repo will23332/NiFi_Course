@@ -65,13 +65,13 @@ Apache NiFi è un software della Apache Software Foundation basato sul software 
 
 | NiFi Term | Descrizione |
 | --- | --- |
-| `Processor` | Processors actually perform the work. In [eip] terms a processor is doing some combination of data routing, transformation, or mediation between systems. Processors have access to attributes of a given FlowFile and its content stream. Processors can operate on zero or more FlowFiles in a given unit of work and either commit that work or rollback. I processori sono il cuore de|
+| `Processor` | I processori sono il cuore del funzionamento. Un processore esegue una combinazione di operazioni (data routing, trasformazioni, mediazione tra sistemi). I processori hanno accesso agli attributi di un dato FlowFile.|
 
 +++
 
 | NiFi Term | Descrizione |
 | --- | --- |
-| `Connection` | Connections provide the actual linkage between processors. These act as queues and allow various processes to interact at differing rates. These queues can be prioritized dynamically and can have upper bounds on load, which enable back pressure. |
+| `Connection` | Le connessioni permettono il collegamento tra i processori. Funzionano come code e permettono lo sviluppo dei processi con volumi differenti. Le code possono essere prioritizzate dinamicamente e avere limiti sul carico, permettendo la gestione della back pressure.|
 
 +++
 
