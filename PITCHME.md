@@ -117,7 +117,7 @@ Apache NiFi è un software della Apache Software Foundation basato sul software 
 +++
 NiFi stocca localmente tre repository su disco:
 
-Flowfile Repository
+Flowfile Repository 
 Contiene lo stato e gli attributi di ogni flowfile che attraversa il flusso NiFi.
 
 Content Repository
