@@ -90,6 +90,24 @@ Apache NiFi è un software della Apache Software Foundation basato sul software 
 ## Hands On
 [NiFi Cluster](http://10.121.172.33:32770/nifi/)
 
++++
+
+## Processori Disponibili
+
+@ul
+
+- Data Transformation
+- Routing and Mediation
+- Database Access
+- Attribute Extraction
+- System Interaction
+- Data Ingestion
+- Splitting and Aggregation
+- HTTP
+- Amazon Web Services
+
+@ulend
+
 ---
 
 ## Basic Architecture
@@ -123,11 +141,8 @@ NiFi espone delle [API](https://nifi.apache.org/docs/nifi-docs/rest-api/index.ht
 ---
 
 ## Hands On pt. II
+
 [NiFi Cluster](http://10.121.172.33:32770/nifi/)
-
-Documentazione [Search API](https://www.elastic.co/guide/en/elasticsearch/reference/current/search.html)
-
-Documentazione [Query DSL](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html)
 
 ---
 
