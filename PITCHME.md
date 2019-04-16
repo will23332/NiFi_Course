@@ -144,16 +144,11 @@ NiFi espone delle [API](https://nifi.apache.org/docs/nifi-docs/rest-api/index.ht
 
 [NiFi Cluster](http://10.121.172.33:32770/nifi/)
 
----
-
-## N.B. 
-C'è una differenza sostianziale nella analisi a livello indice e l'analisi durante la ricerca.
-
-Term Query VS Full-Text Query
-
-More [here](https://madewithlove.be/basic-understanding-of-text-search/)
-
 +++
+
+## NiFi Expression Language
+
+NiFi mette a disposizione un [linguaggio](https://nifi.apache.org/docs/nifi-docs/html/expression-language-guide.html) particolarmente versatile per le operazioni sui flowfile e i loro attributi.
 
 ---
 
