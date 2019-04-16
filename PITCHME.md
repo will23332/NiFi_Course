@@ -31,6 +31,13 @@ Apache NiFi è un software della Apache Software Foundation basato sul software 
 - Interfaccia Web-based
 - Altamente configurabile (il flusso può essere modificato a runtime)
 - Data Provenance 
+
+@ulend
+
++++
+
+@ul
+
 - Estensibile (processori custom)
 - Sicurezza (SSL, SSH, HTTPS)
 - Rest API
@@ -47,6 +54,13 @@ Apache NiFi è un software della Apache Software Foundation basato sul software 
 - Kettle non è particolarmente indicato per lo streaming dati
 - Kettle è una Java Runtime Machine, nativa in Hadoop come job MR o Yarn 
 - NiFi è a modellazione interattiva, nessuna compilazione, modifiche a runtime
+
+@ulend
+
++++
+
+@ul
+
 - NiFi Data Provenance
 - NiFi ha clustering nativo, backpressure e flow control oltre che REST API
 - Nifi non è principalmente per l'orchestrazione/batching ma per trasformazioni in stream
