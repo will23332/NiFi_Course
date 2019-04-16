@@ -135,9 +135,13 @@ Flowfile Repository
 
 Contiene lo stato e gli attributi di ogni flowfile che attraversa il flusso NiFi.
 
++++
+
 Content Repository
 
 Contiene praticamente tutto il contenuto di tutti i flowfiles. Richiede spazio disco in relazione ai dati trattati, quindi ci si deve organizzare di conseguenza.
+
++++
 
 Provenance Repository
 
