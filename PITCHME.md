@@ -12,6 +12,12 @@ A cura di Guglielmo Piacentini
 
 Un sistema di elaborazione e distribuzione dati, facile da usare e particolarmente versatile e potente.
 
++++
+
+## Curiosità
+
+Apache NiFi è un software della Apache Software Foundation basato sul software "NiagaraFiles" sviluppato dall' NSA.
+
 ---
 
 ## Caratteristiche
@@ -24,6 +30,22 @@ Un sistema di elaborazione e distribuzione dati, facile da usare e particolarmen
 - Estensibile (processori custom)
 - Sicurezza (SSL, SSH, HTTPS)
 - Rest API
+
+@ulend
+
++++
+
+## NiFi vs Kettle
+
+@ul
+
+- Kettle è un ETL batch-oriented (Informatica/Talend/Datastage)
+- Kettle non è particolarmente indicato per lo streaming dati
+- Kettle è una Java Runtime Machine, nativa in Hadoop come job MR o Yarn 
+- NiFi è a modellazione interattiva, nessuna compilazione, modifiche a runtime
+- NiFi Data Provenance
+- NiFi ha clustering nativo, backpressure e flow control oltre che REST API
+- Nifi non è principalmente per l'orchestrazione/batching ma per trasformazioni in stream
 
 @ulend
 
